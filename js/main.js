@@ -50,6 +50,8 @@ function mostrarPokemon(poke){
     listaPokemon.append(div);
 }
 
+
+//clasifica los pokemones por botones 
 botonesHeader.forEach(boton => boton.addEventListener("click", (event)=>{
     const botonId = event.currentTarget.id;
 
